@@ -5,6 +5,8 @@ function dwarfRollCall(dwarves) {
     dwarfLine.push(`${i+1}. ${dwarves[i]}`)
   }
   return dwarfLine.join(' ')
+
+  return dwarfLine.join('  ')
 }
 
 function summonCaptainPlanet(planeteerCalls){
@@ -38,4 +40,13 @@ function longPlaneteerCalls(words) {
    }
 
 function findTheCheese (foods) {
+  var cheese=["cheddar","gouda","camembert"];
+  
+    }
+    }
+    
+  }
+  
+  
+  
 }
