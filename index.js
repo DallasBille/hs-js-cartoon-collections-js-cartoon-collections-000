@@ -27,7 +27,15 @@ function summonCaptainPlanet(planeteerCalls){
   
     
 function longPlaneteerCalls(words) {
-}
+  for(let i=0; i<words.length; i++){
+    
+    if(words[i].length>4){
+      return true
+  }
+    else(words[i].length<=4)
+      return false
+    }
+   }
 
 function findTheCheese (foods) {
 }
