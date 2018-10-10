@@ -10,17 +10,22 @@ function dwarfRollCall(dwarves) {
 function summonCaptainPlanet(planeteerCalls){
   
   var newCalls=[];
-  var finalCalls=[];
-  for(let i=0; i<planeteerCalls.length; i++){
-    newCalls.push(planeteerCalls[i].toUpperCase())
-  }
-    return newCalls
-}
-   for(let i=0; i<newCalls;i++){
-  finalCalls.push(newCalls[i])
-   }
-  return finalCalls
   
+  var finalCalls=[];
+  
+  for(let i=0; i<planeteerCalls.length; i++){
+    
+    newCalls.push(planeteerCalls[i].toUpperCase());
+}  
+
+  for(let i=0; i<newCalls.length; i++){
+       
+    finalCalls.push(`${newCalls[i]}!`)
+  }
+  return finalCalls
+}
+  
+    
 function longPlaneteerCalls(words) {
 }
 
