@@ -43,12 +43,13 @@ function findTheCheese (foods) {
   var cheese=["cheddar","gouda","camembert"];
   
   for(let i=0; i<foods.length; i++){
-    if(foods.includes(cheese[i])){
-      return cheese[i]
+    if(cheese.includes(foods[i])){
+      return foods[i]
+    }
     }
   return "no cheese!"
   
-}
+
 }
 
 
