@@ -1,3 +1,4 @@
+
 function dwarfRollCall(dwarves){
   var numberedLine=[];
   
@@ -28,5 +29,17 @@ function longPlaneteerCalls(shortCalls){
 }
 
 function findTheCheese(cheddarCheese){
-  
+ var cheese=["cheddar","gouda","camembert"];
+ 
+  for(let i=0; i<cheddarCheese.length; i++){
+    
+    if(cheese.includes(cheddarCheese[i])){
+       
+       return cheddarCheese[i];
+    }
+  }
+  return "no cheese!"
 }
+
+  
+
