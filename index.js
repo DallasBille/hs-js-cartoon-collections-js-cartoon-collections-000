@@ -2,7 +2,7 @@
 function dwarfRollCall(dwarves){
   var numberedLine=[];
   
-  for(let i=0;i<dwarves.length/2; i++){
+  for(let i=dwarves.length/2;i<dwarves.length; i++){
 
   numberedLine.push(`${i+1}. ${dwarves[i]}`);
 }
