@@ -2,7 +2,7 @@
 function dwarfRollCall(dwarves){
   var numberedLine=[];
   
-  for(let i=0; i<dwarves.length; i++){
+  for(let i=0;i<dwarves.length/2; i++){
 
   numberedLine.push(`${i+1}. ${dwarves[i]}`);
 }
@@ -43,7 +43,17 @@ function findTheCheese(foods){
 }
 
 function wordsWithB(words){
+  var newWords=[];
   
+  for(let i=0; i<words.length; i++){
+    
+   if (words[i].starts_with('b')){
+     
+     newWords.push(words[i])
+     }
+   
+  }
+  return newWords
 }
 
 
