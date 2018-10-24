@@ -31,11 +31,8 @@ function longPlaneteerCalls(shortCalls){
 function findTheCheese(foods){
  var cheese=["cheddar","gouda","camembert"];
  
-<<<<<<< HEAD
+
   for(let i=0; i<foods.length; i++){
-=======
-  for(let i=0; i<cheddarCheese.length; i++){
->>>>>>> b195c281105c3f35dad0fdb676da893343221901
     
     if(cheese.includes(foods[i])){
        
@@ -46,12 +43,4 @@ function findTheCheese(foods){
 }
 
 
-
-
- for(let i=0; i<cheddarCheese.length; i++){
-   if(cheese[i].includes(cheddarCheese[i])){
-   
-   return cheese[i]
-}
-}
 
